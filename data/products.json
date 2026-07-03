@@ -1,0 +1,389 @@
+[
+  {
+    "id": "eq-camera-fx6",
+    "type": "equipment",
+    "category": "摄像设备",
+    "name": "Sony ILME-FX6",
+    "model": "Sony ILME-FX6",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM",
+    "remark": "竖拍"
+  },
+  {
+    "id": "eq-camera-fx3",
+    "type": "equipment",
+    "category": "摄像设备",
+    "name": "Sony ILME-FX3",
+    "model": "Sony ILME-FX3",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-gimbal-rs4pro",
+    "type": "equipment",
+    "category": "摄像设备",
+    "name": "如影Ronin-Rs4pro",
+    "model": "Ronin-Rs4pro",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-lens-50-400",
+    "type": "equipment",
+    "category": "摄像设备",
+    "name": "Sony E卡口全画幅镜头",
+    "model": "索尼50-400",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-lens-24-70",
+    "type": "equipment",
+    "category": "摄像设备",
+    "name": "Sony E卡口全画幅镜头",
+    "model": "索尼24-70",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-tripod-v12",
+    "type": "equipment",
+    "category": "摄像设备",
+    "name": "图瑞斯V12三脚架",
+    "model": "",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-switcher-bmd",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "Blackmagic导播台（2级ATEM Television Studio 4K8）",
+    "model": "BMD 4K 8路",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-switcher-atem-constellation",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "ATEM Constellation 8K（BMD 4M/E 8K切换台）",
+    "model": "ATEM Constellation 8K",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-monitor-feelworld-7",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "富威德7寸小监",
+    "model": "7寸小监",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-monitor-lg-4k",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "LG 4K显示器",
+    "model": "LG 4K",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-monitor-swit",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "视威SWIT 21寸大监",
+    "model": "大监",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM",
+    "remark": "竖装"
+  },
+  {
+    "id": "eq-converter-dac70",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "互转",
+    "model": "DAC-70转换器 bmd互转",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-stream-pc",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "高配推流电脑（含内置duo2采集卡/软件/备用电脑）",
+    "model": "i7-12700 / 32G / RTX3060 / SSD 500G",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-all-in-one-switcher",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "导播一体机",
+    "model": "",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-magewell-pro",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "美乐威pro",
+    "model": "",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-recorder-bmd",
+    "type": "equipment",
+    "category": "导播设备",
+    "name": "Blackmagic录机/ATOMOS录机/AJA录机/REDLINK录机",
+    "model": "bmd",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-yamaha-mg12",
+    "type": "equipment",
+    "category": "音频设备",
+    "name": "雅马哈MG12调音台",
+    "model": "",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-sony-uwp-d21",
+    "type": "equipment",
+    "category": "音频设备",
+    "name": "Sony UWP-D21领夹麦克风（一拖一）",
+    "model": "Sony UWP-D21",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-dji-mic-2",
+    "type": "equipment",
+    "category": "音频设备",
+    "name": "DJI MIC 2 麦克风",
+    "model": "",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-speaker-monitor",
+    "type": "equipment",
+    "category": "音频设备",
+    "name": "雅马哈监听音箱",
+    "model": "监听音箱",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-5g-bonding",
+    "type": "equipment",
+    "category": "网络和传输设备",
+    "name": "5G聚合网",
+    "model": "5G聚合网",
+    "unitPrice": 800,
+    "officialDays": 1,
+    "provider": "供应商"
+  },
+  {
+    "id": "eq-switch-network",
+    "type": "equipment",
+    "category": "网络和传输设备",
+    "name": "交换机-网络扩充",
+    "model": "交换机",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-router",
+    "type": "equipment",
+    "category": "网络和传输设备",
+    "name": "路由器",
+    "model": "路由器",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-intercom-moma",
+    "type": "equipment",
+    "category": "通信设备",
+    "name": "猛犸传声1000  一拖八",
+    "model": "",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM",
+    "remark": "导摄1 导演组2"
+  },
+  {
+    "id": "eq-intercom-moma-roam",
+    "type": "equipment",
+    "category": "通信设备",
+    "name": "猛犸传声1000漫游版 一拖二十",
+    "model": "传声1000漫游版",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-naya-tally",
+    "type": "equipment",
+    "category": "通信设备",
+    "name": "NAYA无线Tally返送灯",
+    "model": "4个",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-dji-power",
+    "type": "equipment",
+    "category": "电力设备",
+    "name": "大疆户外电源",
+    "model": "大疆电源",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-ups",
+    "type": "equipment",
+    "category": "电力设备",
+    "name": "UPS",
+    "model": "UPS",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "RMM"
+  },
+  {
+    "id": "eq-cables",
+    "type": "equipment",
+    "category": "电力设备",
+    "name": "线材",
+    "model": "线材",
+    "unitPrice": 0,
+    "officialDays": 1,
+    "provider": "供应商"
+  },
+  {
+    "id": "staff-director",
+    "type": "personnel",
+    "category": "导播/导演组",
+    "name": "导播（4-6）",
+    "model": "导播",
+    "unitPrice": 1500,
+    "officialDays": 1,
+    "provider": "供应商"
+  },
+  {
+    "id": "staff-camera",
+    "type": "personnel",
+    "category": "摄像组",
+    "name": "固定机位摄影师",
+    "model": "固机摄像",
+    "unitPrice": 1000,
+    "officialDays": 1,
+    "provider": "供应商"
+  },
+  {
+    "id": "staff-packaging-tech",
+    "type": "personnel",
+    "category": "技术组",
+    "name": "包装技术",
+    "model": "包装技术",
+    "unitPrice": 1000,
+    "officialDays": 1,
+    "provider": "供应商"
+  },
+  {
+    "id": "staff-color",
+    "type": "personnel",
+    "category": "技术组",
+    "name": "达芬奇实时调色",
+    "model": "实时调色（程老师）",
+    "unitPrice": 2500,
+    "officialDays": 1,
+    "provider": "供应商"
+  },
+  {
+    "id": "staff-assistant",
+    "type": "personnel",
+    "category": "技术组",
+    "name": "助理",
+    "model": "助理",
+    "unitPrice": 500,
+    "officialDays": 1,
+    "provider": "供应商",
+    "remark": "系统搭建"
+  },
+  {
+    "id": "staff-audio",
+    "type": "personnel",
+    "category": "技术组",
+    "name": "音频技术",
+    "model": "音频技术（默默）",
+    "unitPrice": 1200,
+    "officialDays": 1,
+    "provider": "供应商",
+    "remark": "跟直播推台子"
+  },
+  {
+    "id": "reimb-traffic",
+    "type": "reimbursement",
+    "category": "实报实销",
+    "name": "人员交通",
+    "unitPrice": 500,
+    "officialDays": 1
+  },
+  {
+    "id": "reimb-hotel",
+    "type": "reimbursement",
+    "category": "实报实销",
+    "name": "人员住宿",
+    "unitPrice": 0,
+    "officialDays": 1
+  },
+  {
+    "id": "reimb-transport",
+    "type": "reimbursement",
+    "category": "实报实销",
+    "name": "设备运输",
+    "unitPrice": 0,
+    "officialDays": 1
+  },
+  {
+    "id": "reimb-other",
+    "type": "reimbursement",
+    "category": "实报实销",
+    "name": "其他",
+    "unitPrice": 0,
+    "officialDays": 1
+  }
+]
