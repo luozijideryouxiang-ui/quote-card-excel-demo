@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>报价单快速生成器</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="signal-field" aria-hidden="true">
+      <span class="signal-line line-a"></span>
+      <span class="signal-line line-b"></span>
+      <span class="signal-line line-c"></span>
+    </div>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Quote Workspace</p>
+          <h1>报价配置控制台</h1>
+        </div>
+        <div class="topbar-actions">
+          <div class="workflow-switch" aria-label="工作模式">
+            <button id="estimateModeBtn" class="mode-pill" type="button">估价模式</button>
+            <button id="quoteModeBtn" class="mode-pill active" type="button">报价模式</button>
+          </div>
+          <a class="ghost-action link-action" href="/settings.html">Settings Center</a>
+          <button id="generateBtn" class="primary-action" type="button">生成 Excel</button>
+        </div>
+      </header>
+
+      <section class="project-panel" aria-label="项目信息">
+        <label>
+          <span>项目名称</span>
+          <input id="projectName" value="上海w品牌直播活动" />
+        </label>
+        <label>
+          <span>品牌方</span>
+          <input id="brand" value="w" />
+        </label>
+        <label>
+          <span>执行地点</span>
+          <input id="location" value="容么么直播中心" />
+        </label>
+        <label>
+          <span>彩排时间</span>
+          <input id="rehearsalTime" type="date" />
+        </label>
+        <label>
+          <span>直播时间</span>
+          <input id="liveTime" type="date" value="2026-07-07" />
+        </label>
+        <label>
+          <span>RMM 对接人</span>
+          <input id="contact" value="梦圆" />
+        </label>
+      </section>
+
+      <section class="workspace">
+        <section class="picker" aria-label="报价项目卡片">
+          <div class="tool-strip" aria-label="配置入口">
+            <div class="mode-switch">
+              <button id="catalogModeBtn" class="tab active" type="button">设备目录</button>
+              <button id="packageModeBtn" class="tab" type="button">场景套餐</button>
+              <button id="schemeModeBtn" class="tab" type="button">方案库</button>
+            </div>
+          </div>
+          <div class="tabs" id="tabs"></div>
+          <div class="card-grid" id="cardGrid"></div>
+        </section>
+
+        <aside class="quote-list" aria-label="已选报价明细">
+          <div class="quote-list-header">
+            <div>
+              <p class="eyebrow">Selected</p>
+              <h2>已进报价单</h2>
+            </div>
+            <div class="quote-actions">
+              <button id="saveSchemeBtn" class="ghost-action" type="button">保存方案</button>
+              <button id="clearBtn" class="ghost-action" type="button">清空</button>
+            </div>
+          </div>
+          <div id="selectedRows" class="selected-rows"></div>
+          <footer class="summary-bar" aria-label="价格估算">
+            <div class="summary-cell">
+              <span>不含税预估</span>
+              <strong id="taxExclusiveTotal">¥0.00</strong>
+            </div>
+            <div class="summary-cell">
+              <span>税额 <small id="taxRateText">6%</small></span>
+              <strong id="taxAmount">¥0.00</strong>
+            </div>
+            <div class="summary-cell highlight">
+              <span>含税预估</span>
+              <strong id="taxInclusiveTotal">¥0.00</strong>
+            </div>
+            <strong id="estimatedTotal" class="legacy-total" aria-hidden="true">¥0.00</strong>
+          </footer>
+          <div id="status" class="status" role="status"></div>
+        </aside>
+      </section>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
