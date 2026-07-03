@@ -5,4 +5,4 @@ node_modules/
 
 # Generated quotes, screenshots, and local run artifacts.
 outputs/
-data/settings/importHistory.json
+data/settings/*.json
