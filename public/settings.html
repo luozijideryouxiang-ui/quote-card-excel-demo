@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Settings Center - 报价配置控制台</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="signal-field" aria-hidden="true">
+      <span class="signal-line line-a"></span>
+      <span class="signal-line line-b"></span>
+      <span class="signal-line line-c"></span>
+    </div>
+    <main class="app-shell settings-shell">
+      <header class="topbar settings-topbar">
+        <div>
+          <p class="eyebrow">CPQ-lite System</p>
+          <h1>Settings Center</h1>
+        </div>
+        <div class="topbar-actions">
+          <button id="themeToggleBtn" class="ghost-action" type="button">切换明暗</button>
+          <a class="primary-action link-action" href="/">回到报价台</a>
+        </div>
+      </header>
+
+      <section class="settings-layout">
+        <nav class="settings-nav" aria-label="Settings navigation">
+          <a href="#price">价格管理</a>
+          <a href="#import">Excel导入报价单</a>
+          <a href="#catalog">设备库管理</a>
+          <a href="#packages">套餐管理</a>
+        </nav>
+
+        <section class="settings-stack">
+          <section id="price" class="settings-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Pricing System</p>
+                <h2>价格管理</h2>
+              </div>
+              <label class="file-action">
+                <span>上传价格表</span>
+                <input id="priceFileInput" type="file" accept=".xlsx,.xls" />
+              </label>
+            </div>
+            <div id="priceLockPanel" class="lock-panel">
+              <div>
+                <strong>价格功能已锁定</strong>
+                <span>输入价格密码后才能查看、导入和编辑价格。</span>
+              </div>
+              <label>
+                <span>价格密码</span>
+                <input id="pricePasswordInput" type="password" autocomplete="current-password" placeholder="输入密码" />
+              </label>
+              <button id="priceUnlockBtn" class="primary-action" type="button">解锁价格功能</button>
+            </div>
+            <div id="priceTools" class="price-tools is-locked">
+              <div class="split-grid">
+              <label>
+                <span>粘贴导入</span>
+                <textarea id="pricePasteInput" placeholder="FX3    1200    800&#10;FX6    1800    1200&#10;ATEM   900     600&#10;&#10;年框核价模板可直接上传，会读取各家年框价"></textarea>
+              </label>
+              <div class="action-panel">
+                <button id="pricePasteBtn" class="primary-action" type="button">导入价格</button>
+                <p>标准价、年框价、各家年框价会保存在本地 Settings，不写入 Excel 模板结构。</p>
+              </div>
+              </div>
+              <div id="priceTable" class="settings-table"></div>
+            </div>
+          </section>
+
+          <section id="import" class="settings-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Import Learning Source</p>
+                <h2>Excel导入报价单</h2>
+              </div>
+              <label class="file-action">
+                <span>上传 V5 报价单</span>
+                <input id="quoteImportInput" type="file" accept=".xlsx,.xls" />
+              </label>
+            </div>
+            <div id="importSummary" class="metric-row"></div>
+            <div id="importHistory" class="settings-table compact-table"></div>
+          </section>
+
+          <section id="catalog" class="settings-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Excel Catalog</p>
+                <h2>设备库管理</h2>
+              </div>
+              <input id="catalogSearchInput" class="inline-search" placeholder="搜索设备、人员、分类" />
+            </div>
+            <div id="catalogTable" class="settings-table catalog-table"></div>
+          </section>
+
+          <section id="packages" class="settings-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Configurator</p>
+                <h2>套餐管理</h2>
+              </div>
+              <button id="packageSaveBtn" class="primary-action" type="button">保存套餐</button>
+            </div>
+            <label>
+              <span>套餐 JSON</span>
+              <textarea id="packageJsonInput" class="code-textarea"></textarea>
+            </label>
+          </section>
+
+          <div id="settingsStatus" class="status" role="status"></div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="/settings.js"></script>
+  </body>
+</html>
