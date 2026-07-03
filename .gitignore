@@ -1,0 +1,8 @@
+node_modules
+node_modules/
+.DS_Store
+*.log
+
+# Generated quotes, screenshots, and local run artifacts.
+outputs/
+data/settings/importHistory.json
